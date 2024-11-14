@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #00e1ff;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #a9a3a3;
+}
+
+tr:hover {
+    background-color: #c2ef0c;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #28a785; /* Green */
+}
+
+.btn-danger {
+    background-color: #dc9f35; /* Red */
+}
+
+.btn-success {
+    background-color: #cbdc35; /* Red */
+}
